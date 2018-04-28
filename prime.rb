@@ -4,5 +4,5 @@ def prime?(integer)
     false
   else
     (2..Math.sqrt(integer)).none? { |n| integer % n == 0}
-  end  
+  end
 end
